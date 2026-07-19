@@ -1,0 +1,135 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: #1a1a2e;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title{
+    margin:30px auto;
+    padding:20px;
+    text-align: center;
+    font-weight: bold;
+}
+#option{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    margin:20px;
+}
+#hist_section{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+}
+.hidden{
+    display: none!important;
+}
+.ligne{
+    height:20px;
+}
+#hist-btn{
+    position:absolute;
+    right:45%;
+    background-color:white;;
+    border:2px solid rgb(59, 9, 177);
+    height:25px;
+    width:100px;
+    border-radius: 10px;
+    color:#1a1a2e;
+    font-weight: bold;
+}
+#hist_section .ligne{
+    border-bottom:3px solid gray;
+    text-align: end;
+    padding-right:20px;
+}
+section,#hist{
+    padding: 20px;
+    margin: 20px;
+    width: 600px;
+}
+section #output{
+    height:10vh;
+    min-width: 500px;
+    max-width: 550px;
+    margin: auto 30px;
+    text-align: end;
+    font-size: 2rem;
+    border:4px double white;
+    overflow: hidden;
+    padding:  auto;
+}
+section #ref{
+    display: flex;
+    min-width: 500px;
+    margin:auto 30px;
+    max-width: 550px;
+    flex-direction: row-reverse;
+    gap: 10px;
+    background-color: #1a1a2e;
+    border-bottom: 3px solid gray;
+    margin-top:20px;
+    
+}
+section #ref button{
+    height:40px;width: 100px;padding: 20px auto;
+    border:1px solid transparent;
+    margin-bottom: 20px;
+    color: #eaeaee;
+    background-color: #1a1a2e;
+    border-radius:16px;
+}
+section #ref button:hover{
+    background-color: rgba(88, 126, 133,0.6)
+}
+section #trigo option:hover{
+    background-color: rgba(189, 187, 187, 0.6)
+}
+section #settings{
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin:20px;
+    min-width: 500px;
+    max-width: 550px;
+    margin-left: 50px;
+}
+section #settings div{
+    border-radius: 16px;
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#btns{
+    max-height: 60vh;
+    min-height: 60vh;
+    min-width: 500px;
+    max-width: 550px;
+    margin:auto 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#btns button{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    padding: 20px auto;
+    background-color: #eaeaee;
+    font-weight: bold;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    border: 2px solid #1a1a2e;
+}
+#btns :last-child{
+    background-color: rgb(228, 171, 180);
+}
+#btns button:hover{
+    background-color: rgba(88, 126, 133,0.6)
+}

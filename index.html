@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculatrice</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <div id="title">
+        <h1>Calculatrice</h1>
+    </div>
+    <div id="option">
+        <div id="nav">
+            <nav></nav>
+            <h3></h3>
+        </div>
+        <input type="button" value="history">
+    </div> -->
+    <div id="hist">
+        <button id="hist-btn">Historique</button>
+        <section id="hist_section">
+            <h2>Historique</h2>
+            <div class="ligne" id="ligne1"><p></p></div>
+            <div class="ligne" id="ligne2"><p></p></div>
+            <div class="ligne" id="ligne3"><p></p></div>
+            <div class="ligne" id="ligne4"><p></p></div>
+            <div class="ligne" id="ligne5"><p></p></div>
+            <div class="ligne" id="ligne6"><p></p></div>
+            <div class="ligne" id="ligne7"><p></p></div>
+            <div class="ligne" id="ligne8"><p></p></div>
+            <div class="ligne" id="ligne9"><p></p></div>
+            <div class="ligne" id="ligne10"><p></p></div>
+        </section>
+    </div>
+    <section id="section">
+        <div id="output"><p> </p></div>
+        <div id="ref">
+            <button id="DEG">DEG</button>
+            <button id="F-E">F-E</button>
+            <button id="MC">MC</button>
+            <button id="MR">MR</button>
+            <button id="M+">M+</button>
+            <button id="M-">M-</button>
+            <button id="MS">MS</button>
+            <button id="M">M</button>
+        </div>
+        <div id="settings">
+            <div id="trigo">
+                <label for="trigo">Trigonometrie</label>
+                <select name="trigo" id="trigo">
+                    <option value="2nd">2nd</option>
+                    <option value="sin">sin</option>
+                    <option value="cos">cos</option>
+                    <option value="tan">tan</option>
+                    <option value="hyp">hyp</option>
+                    <option value="sec">sec</option>
+                    <option value="csc">csc</option>
+                    <option value="cot">cot</option>
+                </select>
+            </div>
+            <div id="function">
+                <label for="func">Function</label>
+                <select name="func" id="func">
+                    <option value="|x|">2nd</option>
+                    <option value="floor">floor</option>
+                    <option value="ceil">ceil</option>
+                    <option value="rand">rand</option>
+                    <option value="dms">dms</option>
+                    <option value="deg">deg</option>
+                </select>
+            </div>
+        </div>
+        <div id="btns">
+            <button id="2nd">2nd</button>
+            <button id="pi">pi</button>
+            <button id="e">e</button>
+            <button id="CE">CE</button>
+            <button id="suppr">suppr</button>
+            <button id="x²">x²</button>
+            <button id="1/x">1/x</button>
+            <button id="|x|">|x|</button>
+            <button id="exp">exp</button>
+            <button id="mod">mod</button>
+            <button id="sqrt(x)">sprt(x)</button>
+            <button id="&#40">&#40</button>
+            <button id="&#41">&#41</button>
+            <button id="n!">n!</button>
+            <button id="/">/</button>
+            <button id="x^y">x^y</button>
+            <button id="7">7</button>
+            <button id="8">8</button>
+            <button id="9">9</button>
+            <button id="*">x</button>
+            <button id="10^x">10^x</button>
+            <button id="4">4</button>
+            <button id="5">5</button>
+            <button id="6">6</button>
+            <button id="-">-</button>
+            <button id="log">log</button>
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="+">+</button>
+            <button id="ln">ln</button>
+            <button id="+/-">+/-</button>
+            <button id="0">0</button>
+            <button id=".">.</button>
+            <button id="=">=</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
